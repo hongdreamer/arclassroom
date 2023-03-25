@@ -4,7 +4,7 @@ body {
     background-color: aliceblue;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .content {
@@ -25,10 +25,19 @@ body {
 .bottom {
 }
 
+.center-line {
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:none;
+}
+
 .center-box {
     flex: none;
-    background-color: lightblue;
-    width: 300px;
+    width: 350px;
+    height:600px;
 }
 
 .login-box{
