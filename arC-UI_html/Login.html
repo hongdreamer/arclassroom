@@ -4,20 +4,35 @@
 <head>
     <meta charset="utf-8" />
     <title>arclassroom Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css-selec.css" />
 </head>
-<body style="background-color:aliceblue">
-    <h1 style="text-align:center">登入</h1>
-    <form style="text-align:center;font-size:18px">
-        <label for="username">帳號:</label>
-        <input type="text" id="username" name="username"><br><br>
+<body>
 
-        <label for="password">密碼:</label>
-        <input type="password" id="password" name="password"><br><br>
+    <div class="center-box">
+        <div class="title">歡迎使用本系統</div>
+        <div class="login-box">
 
-        <input type="submit" value="登入">
-    </form>
+            <div class="title">登入</div>
 
-    <div style="text-align:center;margin-block:15px">沒有帳號? <a href="#">註冊</a></div>
-    <div style="text-align:center"><a href="#">學生端連結</a></div>
+
+            <form class="content">
+                <label for="username">電子郵件</label>
+                <br />
+                <input type="text" id="username" name="username"><br><br>
+
+                <label for="password">密碼</label>
+                <br />
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="登入">
+            </form>
+
+            <div class="content">忘記密碼? <a href="#">重設</a></div>
+
+        </div>
+        <div class="content">沒有帳號? <a href="#">註冊</a></div>
+
+        <div class="content"><a href="#">學生端連結</a></div>
+    </div>
 </body>
 </html>

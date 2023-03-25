@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.content {
+    flex: none;
+    text-align: center;
+    font-size: 16px;
+    margin-block: 20px;
+}
+
+.title {
+    flex: none;
+    text-align: center;
+    font-size: 35px;
+    margin-block: 30px;
+    font-weight:bold;
+}
+
+.bottom {
+}
+
+.center-box {
+    flex: none;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.login-box{
+    border-block-start:2px solid white;
+    border-block-end:2px solid white;
+}
