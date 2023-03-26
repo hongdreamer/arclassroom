@@ -1,7 +1,8 @@
 body {
     height: 100vh;
+    width: 100vh;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #E0E0E0;
 }
 
 .center {
@@ -51,3 +52,39 @@ body {
     border-block-start: 2px solid #FFFFFF;
     border-block-end: 2px solid #FFFFFF;
 }
+
+
+.logo {
+    width: 100px;
+    height: 80px;
+    flex: none;
+    align-items: start;
+}
+
+.head {
+    width: 50px;
+    height: 50px;
+    flex: none;
+    display: flex;
+    justify-content:end;
+    margin-block:100px;
+}
+
+.frame {
+    width: 100vh;
+}
+
+.menu {
+    flex:none;
+    flex-wrap: wrap;
+    display:flex;
+}
+.item{
+    font-size: 30px;
+    flex:none;
+    align-items:start;
+    margin-block:100px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
